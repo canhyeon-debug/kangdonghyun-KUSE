@@ -7,4 +7,6 @@ for i in range(N):
 
         results.append(seq[i])
 
-print(results[0:])
+print(*results)
+
+#리스트에 있는 요소만 빼려면 앞에 *붙이면 됌.
