@@ -10,9 +10,5 @@ for i in range(K):
     for j in range(len(scores)-1):
         gap.append(scores[j] - scores[j+1])
 
-
-
-
-
     print('Class {}'.format(i+1))
     print('Max {}, Min {}, Largest gap {}'.format(max(scores), min(scores), max(gap)))
