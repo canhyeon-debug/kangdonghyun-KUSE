@@ -16,6 +16,4 @@ for a in range(K, N):
     sum += tem[a] - tem[a-K]
     result.append(sum)
 
-
-print(result)
 print(max(result))
